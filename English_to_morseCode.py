@@ -26,4 +26,4 @@ def text(text):
             result+= english_to_morse[i]+" "
 
     return result
-print('this is your text: '+ user_input + "\nand this is the morse code: "+text(user_input))
+print('this is your text: '+ user_input + "\n and this is the morse code: "+text(user_input))
